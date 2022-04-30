@@ -3,14 +3,31 @@
 }
 
 body {
-    background-color: #181a1b;
+    background-color: #202324;
     color: #e8e6e3;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+main {
+    margin: 0 30px
+}
+
+.header {
+    text-align: center;
+    background-color: #181a1b;
+    padding: 30px 0;
+    margin: 30px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
 nav {
     overflow: hidden;
-    background-color: rgb(77, 0, 77);
-    padding: 0 50px;
+    width: 100%;
+    background-color: #262a2b;
 }
 
 nav a {
@@ -19,10 +36,8 @@ nav a {
     padding: 0 50px;
     font-size: x-large;
     color: orange;
-}
-
-main {
-    height: 700px;
+    border: transparent 1px solid;
+    border-radius: 5px;
 }
 
 nav a:hover {
@@ -32,32 +47,44 @@ nav a:hover {
 }
 
 .sidebar {
-    float: left;
-    width: 28%;
-    margin: 5px;
-    padding: 5px;
+    float: right;
+    width: 20%;
     height: 100%;
-    background-color: #708090;
-    border: transparent;
-    border-radius: 10px;
+    padding: 5px;
 }
 
 .content {
-    float: left;
-    clear: right;
-    width: 70.5%;
+    float: right;
+    clear: left;
+    width: 80%;
     height: 100%;
-    margin: 5px;
     padding: 5px;
-    background-color: slategray;
-    border: transparent;
-    border-radius: 10px;
 }
 
+.card {
+    background-color: #181a1b;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin: 20px;
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
 
-footer {
+.footer {
+    background-color: #2b2f31;
+    color: white;
+    margin: 30px;
+    padding: 5px
+}
+
+.clearfix::after {
+    content: "";
     clear: both;
-    background-color: rgb(77, 0, 77);
-    color: orange;
-    height: 100px;
+    display: table;
+}
+
+.fakeimg {
+    width: 100%;
+    background-color: #484e51;
 }

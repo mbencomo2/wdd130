@@ -86,4 +86,5 @@ nav a:hover {
 .fakeimg {
     width: 100%;
     background-color: #484e51;
+    margin: 1px 0;
 }

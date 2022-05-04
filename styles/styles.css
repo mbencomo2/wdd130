@@ -31,10 +31,10 @@ nav {
 }
 
 nav a {
-    float: right;
     display: block;
     padding: 0 50px;
     font-size: x-large;
+    text-decoration: none;
     color: orange;
     border: transparent 1px solid;
     border-radius: 5px;

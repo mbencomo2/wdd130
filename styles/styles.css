@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cuprum&family=Heebo&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.096);
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+h1, h3, h4, h5, h6 {
+    font-family: 'Cuprum', sans-serif;
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul li {
+    list-style-type: none;
 }
 
 body {
     background-color: #202324;
     color: #e8e6e3;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -41,9 +74,10 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #504600;
-    color: white;
+    background-color: rgba(0, 255, 255, 0.096);
+    color: aquamarine;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .sidebar {

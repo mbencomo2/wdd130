@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&family=Poppins:wght@600&family=Signika:wght@300&display=swap');
 
-
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color: #073b3a   ;
   --secondary-color: #0b6e4f ;
   --accent1-color: #08a045;
   --accent2-color: #6bbf59;
-
-  /* change the values below to your chosen font(s) */
-  --heading-font: Poppins;
-  --heading2-font: Overpass;
-  --paragraph-font: Signika, Helvetica, sans-serif;
 }
 body {
     background-color: #08a0451e;

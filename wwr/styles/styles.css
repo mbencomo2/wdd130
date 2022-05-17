@@ -75,6 +75,7 @@ footer h3 a:hover {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Overpass';
     padding: 15px 30px ;
     margin-top: 50px;
     border-radius: 5px;
@@ -87,7 +88,7 @@ footer h3 a:hover {
     text-align: center;
 }
 .msg {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 35px;
 }
 .home-title {
@@ -128,7 +129,7 @@ footer h3 a:hover {
 }
 #background {
     height: 725px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;

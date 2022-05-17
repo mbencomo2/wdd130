@@ -71,8 +71,8 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 .book, .join {
-    background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px ;
@@ -117,7 +117,10 @@ footer h3 a:hover {
     margin: 200px 0;
 }
 .card_image {
-    border: black 10px solid;
+    border: var(--secondary-color) 10px solid;
+}
+.mountains {
+    margin: 35px;
 }
 #content {
     max-width: 1600px;

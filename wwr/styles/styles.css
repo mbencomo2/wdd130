@@ -20,13 +20,13 @@ ul {
     list-style-type: none;
 }
 nav a {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     text-decoration: none;
     font-family: 'Signika';
     padding: 35px;
 }
 nav a:hover {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: white;
 }
 h1, h3, h4, h5, h6{

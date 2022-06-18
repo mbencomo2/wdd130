@@ -276,6 +276,9 @@ footer h3 a:hover {
         margin: 50px auto;
         width: 60%;
     }
+    .faq_card {
+        width: 90%;
+    }
     #background {
         display: none;
     }

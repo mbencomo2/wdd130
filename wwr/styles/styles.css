@@ -196,6 +196,9 @@ footer h3 a:hover {
     justify-self: center;
     align-self: center;
 }
+.moveDown {
+    margin-top: 3em;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -246,6 +249,16 @@ footer h3 a:hover {
 }
 #faq_title img {
     width: 200px;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
 }
 @media screen and (max-width: 900px) {
     #hero, .home_grid {
